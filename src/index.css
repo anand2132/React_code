@@ -35,12 +35,17 @@ body{
 .turn{
   width:30%;
   height: auto;
-  margin: 10px 35px 0px auto;
+  margin: 10px 15px 0px auto;
 }
 .score{
   width:30%;
   height: fit-content;
-  margin: 10px 35px 0px auto;
+  margin: 10px 15px 0px auto;
+}
+.hi_score{
+  width:30%;
+  height: fit-content;
+  margin: 10px 15px 0px auto;
 }
 .para1,.para2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -157,6 +162,6 @@ button{
 }
 
 .slot_btn{
-  margin: 0px 43% 10px;
+  margin: 10px 40%;
 }
 
