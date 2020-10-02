@@ -22,6 +22,26 @@ body{
   padding: 15px;
   font-family: 'Roboto Condensed', sans-serif;
 }
+.heading2{
+  text-align: center;
+  color: blue;
+  text-transform: capitalize;
+  margin: 10px 0px;
+  background-color:#fff;
+  padding-bottom: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: block ruby;
+}
+.turn{
+  width:30%;
+  height: auto;
+  margin: 10px 35px 0px auto;
+}
+.score{
+  width:30%;
+  height: fit-content;
+  margin: 10px 35px 0px auto;
+}
 .para1,.para2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: x-large;
