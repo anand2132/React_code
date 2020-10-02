@@ -1,18 +1,17 @@
 import React from 'react';
-import Heading from './Heading';
-import List from './List';
-import Gallery from './Gallery';
-import Para from './Paragraph';
-import Greeting,{roll} from './Greeting';
-import Add,{Sub,Mul,Div} from './Calculator';
 import Card from './Cards';
+import Navbar from './Navbar';
+import SlotM from './SlotMachine';
+import Top from './Top';
 
 
 function App(){
   return (
     <>
-      <Greeting />
+      <Navbar />
+      <Top />
       <Card />
+      <SlotM />
       {/* <Heading />
       <Para />
       <Gallery />

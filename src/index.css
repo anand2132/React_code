@@ -3,11 +3,23 @@
 body{
   background-color: cadetblue;
 }
+.om{
+  border-radius: 100%;
+  background-color: chartreuse;
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+}
+.om h1{
+  padding: 20px;
+}
 .heading{
   text-align: center;
   color: blue;
   text-transform: capitalize;
   margin: 50px 0px;
+  background-color:#fff;
+  padding: 15px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 .para1,.para2{
@@ -103,14 +115,28 @@ button{
   color: #868686;
   outline: none;
   border: 1px solid #000;
-  cursor: pointer;
 }
 
+.slot_machine{
+  box-shadow: darkgreen;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 200px;
+}
 
+.slot_inner{
+  border: 1px solid #000;
+  background-color:#fff;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+}
 
-.service-body:hover{
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+.slot_btn{
+  margin: 0px 43% 10px;
 }
 
