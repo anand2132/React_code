@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Cards';
 import Navbar from './Navbar';
 import SlotM from './SlotMachine';
+import ToDoList from './ToDoList';
 import Top from './Top';
 
 
@@ -12,6 +13,7 @@ function App(){
       <Top />
       <Card />
       <SlotM />
+      <ToDoList />
       {/* <Heading />
       <Para />
       <Gallery />

@@ -83,6 +83,7 @@ document.getElementById("score").innerHTML = score;
         myFunction();
         hit -= 1
         if (score > hi_score){
+            hi_score = score;
             result = document.getElementById("msg").innerHTML = "😎 Congratulation! You Won the Game 😎<br />Your Total Score is : " + score + "<br />Your Total Hits : " + hit;
         }else{
             var result = document.getElementById("msg").innerHTML = "😭 You Lose the Game! 😭<br />Your Total Score is : " + score + "<br />Your Total Hits : " + hit;
@@ -147,7 +148,7 @@ document.getElementById("score").innerHTML = score;
 var stop_btn,run_btn;
 function RunGame(t='') {
     
-    r = setInterval(call, 180);
+    r = setInterval(call, 80);
     stop_btn = document.getElementById("stop_btn");
     run_btn = document.getElementById("btn");
     if (stop_btn.style.display === "none") {
@@ -177,6 +178,7 @@ function StopGame(){
 const SlotM = () => {
     return (
         <>
+        <div id="games"></div>
         <h1 className="heading">GAMES</h1>
         <h1 className="para1">🎰 Welcome to Slot Machine 🎰</h1>
         <div className="slot_machine">
