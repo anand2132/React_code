@@ -190,7 +190,7 @@ button{
 .mylist li {
   cursor: pointer;
   position: relative;
-  padding: 12px 8px 12px 40px;
+  /*padding: 12px 8px 12px 40px;*/
   list-style-type: none;
   background: #eee;
   font-size: 18px;
@@ -220,6 +220,17 @@ button{
   background-color: black;
   color: #fff;
   text-decoration: line-through;
+}
+
+.mylist li span.checked {
+  background-color: black;
+  color: #fff;
+  text-decoration: line-through;
+}
+.mylist li span {
+  padding: 12px 8px 12px 40px;
+ width:auto;
+  display:block;
 }
 
 .mylist li.checked .close{
